@@ -1,0 +1,28 @@
+{
+    "name": "zendframework/skeleton-application",
+    "description": "Skeleton Application for ZF2",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "framework",
+        "zf2"
+    ],
+    "homepage": "zend2.localhost",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+        "zendframework/zftool": "dev-master",
+        "zendframework/zend-developer-tools": "dev-master",
+        "doctrine/doctrine-orm-module": "0.8.*@dev",
+        "doctrine/migrations" : "dev-master",
+        "phpunit/phpunit": "3.7.*",
+        "behat/mink": "1.4@stable",
+		"behat/mink-goutte-driver": "*",
+		"behat/mink-selenium2-driver": "*",
+		"behat/behat": "2.4@stable",
+		"behat/mink-extension": "*"
+    },
+    "config":{
+	    "bin-dir":"bin/"
+	}
+}
